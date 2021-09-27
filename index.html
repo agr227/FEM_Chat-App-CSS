@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="/main.css" />
+		<link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik" />
+
+		<title>Frontend Mentor | Chat App CSS</title>
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+				text-decoration: none;
+			}
+
+			.attribution a:hover {
+				color: #fff;
+				text-shadow: 0px 5px 4px #0433ff, 4px -3px 8px #0433ff,
+					4px -3px 12px #0433ff, 4px -3px 19px #0433ff, 4px -3px 30px #0433ff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="background"></div>
+
+		<div class="phone">
+			<div class="header">
+				<div class="notch"></div>
+				<a class="back-arrow" href="#" target="#">
+					<img
+						src="images/Caret left.svg"
+						alt="back arrow icon"
+						width="35px"
+						height="50px"
+					/>
+				</a>
+
+				<img
+					class="avatar"
+					src="images/avatar.jpg"
+					alt="Samuel Green avatar"
+					width="45px"
+					height="45px"
+				/>
+				<div class="p-cont">
+					<p class="name">Samuel Green</p>
+					<p class="work">Available to Walk</p>
+				</div>
+				<a class="more" href="#" target="#">
+					<img
+						src="images/Other 2.svg"
+						alt="three dots more icon"
+						width="35px"
+						height="35px"
+				/></a>
+			</div>
+
+			<div class="messages">
+				<div class="chat them">That sounds great. I’d be happy with that.</div>
+
+				<div class="chat them">
+					Could you send over some pictures of your dog, please?
+				</div>
+
+				<div class="dog">
+					<img
+						src="images/dog-image-1.jpg"
+						alt="dog pic 1"
+						width="53px"
+						height="53px"
+					/>
+					<img
+						src="images/dog-image-2.jpg"
+						alt="dog pic 2"
+						width="53px"
+						height="53px"
+					/>
+					<img
+						src="images/dog-image-3.jpg"
+						alt="dog pic 3"
+						width="53px"
+						height="53px"
+					/>
+				</div>
+
+				<div class="chat us">Here are a few pictures. She’s a happy girl!</div>
+
+				<div class="chat us short">Can you make it?</div>
+
+				<div class="chat them">
+					She looks so happy! The time we discussed works. How long shall I take
+					her out for?
+				</div>
+
+				<div class="chat price">
+					<img
+						src="images/circle.svg"
+						alt="empty circle"
+						width="27px"
+						height="27px"
+					/>
+					30 minute walk
+					<p>$29</p>
+				</div>
+
+				<div class="chat price">
+					<img
+						src="images/circle.svg"
+						alt="empty circle"
+						width="27px"
+						height="27px"
+					/>
+					1 hour walk
+					<p>$49</p>
+				</div>
+				<div class="reply">
+					<input type="text" id="respond" placeholder="Type a message…" />
+					<input
+						type="image"
+						id="send"
+						src="images/Caret right.svg"
+						alt="caret right submit button"
+						height="40px"
+						width="40px"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div class="side">
+			<h1>Simple booking</h1>
+			<p>
+				Stay in touch with our dog walkers through the chat interface. This
+				makes it easy to discuss arrangements and make bookings. Once the walk
+				has been completed you can rate your walker and book again all through
+				the chat.
+			</p>
+		</div>
+
+		<div class="right"></div>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://www.frontendmentor.io/profile/agr227" target="_blank"
+				>Andrew Grady</a
+			>.
+		</div>
+	</body>
+</html>
